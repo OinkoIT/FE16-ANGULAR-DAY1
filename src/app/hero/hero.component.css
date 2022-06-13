@@ -1,0 +1,24 @@
+.hero {
+  position: relative;
+  margin-top: -60px;
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1558858290-7c4a31dfbe1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2834&q=80");
+
+  /* Set a specific height */
+  /* min-height: 550px; */
+  height: 80vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 1px 1px 50px rgba(70, 70, 70, 0.488) inset;
+  justify-content: center;
+}
+
+.insideHero {
+  position: relative;
+  padding-top: 15%;
+  text-align: center;
+  color: rgb(50, 50, 50);
+}
